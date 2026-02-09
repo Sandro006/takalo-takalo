@@ -1,0 +1,114 @@
+body.home-body {
+    background: #f4f6f9;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* HERO */
+.home-hero {
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    color: white;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.home-hero h1 {
+    margin-bottom: 5px;
+}
+
+/* PUBLICATIONS */
+.publication-card {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.publication-header {
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.publication-item {
+    border-top: 1px solid #eee;
+    padding: 15px 0;
+}
+
+.publication-item:first-child {
+    border-top: none;
+}
+
+.publication-user {
+    font-size: 0.9rem;
+    color: #6c757d;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.publication-item p {
+    margin: 8px 0 0;
+}
+
+/* SIDEBAR */
+.side-card {
+    background: white;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* NAVBAR */
+.navbar-app {
+    background: rgba(255, 255, 255, 0.9);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.navbar-app .navbar-brand span {
+    font-weight: 600;
+}
+
+.navbar-app .nav-link {
+    color: #333;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    transition: all 0.25s ease;
+}
+
+.navbar-app .nav-link:hover {
+    background: #f1f3f5;
+}
+
+.navbar-app .nav-link.active {
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    color: white;
+}
+
+.notif-dot {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 8px;
+    height: 8px;
+    background: #e74a3b;
+    border-radius: 50%;
+}
+
+/* Dropdown */
+.dropdown-menu {
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    border: none;
+}
